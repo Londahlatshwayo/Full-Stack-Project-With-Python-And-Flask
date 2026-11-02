@@ -1,4 +1,5 @@
-import sqlite3
+import sqlite3 as sql
+from os import path
 
 ROOT = path.dirname(path.relpath((__file__)))
 
