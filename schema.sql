@@ -1,6 +1,7 @@
-drop table if exists posts;
-        create table posts (
-            id interger primary key autoincrement,
-            name text not null,
-            content text not null;
+DROP TABLE IF EXISTS posts;
+
+CREATE TABLE posts (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name TEXT NOT NULL,
+    content TEXT NOT NULL
 );
