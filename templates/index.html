@@ -2,19 +2,19 @@
 <html>
     <body>
 
-////////////////Form for submitting new posts////////////////
+<!------------------Form for submitting new posts------------------>
         <form action="/" method="post">
             <input placeholder="Name" name="name">
             <input placeholder="Post Content" name="post">
             <input type="submit" value="Submit"
         </form>
-////////////////Form for submitting new posts////////////////
+<!------------------Form for submitting new posts------------------>
 
-////////////////Python code for looping through posts////////////////
+<!------------------Python code for looping through posts------------------>
         {% for post in posts %}
-        <div>{{post[1] + ":" post[2]}}</div>
+            <div>{{post[1] + ":" + post[2]}}</div>
         {% endfor %}
-////////////////Python code for looping through posts////////////////
+<!------------------Python code for looping through posts------------------>
 
     </body>
 </html>
